@@ -1,11 +1,7 @@
-<html>
-    <head>
-        <title>Enter two numbers to add up</title>
-    </head>
-    
-    <body>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <%!
-	public String printSum(String a , String b) 
+	public String givetheSum(String a , String b) 
 	{
 		
 		String output;
@@ -24,5 +20,13 @@
 		}
 	}
 %>
+<html>
+    <head>
+        <title>Enter two numbers to add up</title>
+    </head>
+    
+    <body>
+        <%= givetheSum(request.getParameter("t1"), request.getParameter("t2")) %>
+    
     </body>
 </html>
