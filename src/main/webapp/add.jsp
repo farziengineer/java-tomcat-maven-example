@@ -4,7 +4,7 @@
 	public String givetheSum(String a , String b) 
 	{
 		
-		String output;
+		String output = "";
 		try{
 		int number_1 = Integer.parseInt(a);
 		int number_2 = Integer.parseInt(b);
