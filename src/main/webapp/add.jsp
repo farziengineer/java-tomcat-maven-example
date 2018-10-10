@@ -9,7 +9,7 @@
 		int number_1 = Integer.parseInt(a);
 		int number_2 = Integer.parseInt(b);
 		int sum = number_1 + number_2;
-		output = "Total " + Integer.toString(res);
+		output = "Total " + Integer.toString(sum);
 		}
 		catch(Exception e)
 		{
